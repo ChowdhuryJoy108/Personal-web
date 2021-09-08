@@ -9,7 +9,7 @@ header{
     width:100%;
     height: 60px;
     position: relative;
-    background-color: #e67eb5;
+    background-color: #62bdfc;
 
 }
 header div{
@@ -89,6 +89,7 @@ section{
     font-size: 70px;
     text-transform: uppercase;
     font-weight: 600;
+    
 }
 
 .half1 p{
@@ -160,29 +161,31 @@ section{
 /*section3*/
 .section3{
     width:100%;
-    height: 650px;
-    margin: 0 auto;
-    text-align: center;
+    height: 100px;
+
 }
 .heading{
     width:100%;
     height: 100px;
     margin: 0 auto;
-    text-align: center;
+   
 }
 .heading h1{
     
-    font-size: 40px;
-    line-height: 10px;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .heading p{
     width: 670px;
     margin: 0 auto;
     color:rgb(109, 105, 102);
+    text-align: center;
     
 }
 .service{
+    
     width: 80%;
     margin: 0 auto;
 }
@@ -213,10 +216,181 @@ section{
 }
 
 .ser1 div p,.ser2 div p{
-    color: #9e9e9e;
+    color: #9e9e9e !important;
     padding: 0 10px;
 }
 
+.section5{
+    
+    width: 100%;
+    height: 300px;
+    background-color: #62bdfc;
+    margin-bottom: 100px;
+}
+.section5 div{
+    float: left;
+    width:20%;
+    margin:0 auto;
+    position: relative;
+    top: 0;
+    right: 10px;
+}
+.section5 h1,p{
+    
+    color: white;
+    text-align: center;
+
+}
+.section6{
+    width: 100%;
+    height: 10px;
+    
+}
+
+.section7{
+    width: 80%;
+    height: 200px;
+   
+}
+.some__links{
+    margin-left: 500px;
+   
+}
+.some__links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.some__links ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #555;
+    padding: 0 5px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.some__links ul a:hover{
+    border-bottom: 2px solid black;
+}
+/*pricing*/
+
+.section8{
+    margin-top: 100px;
+    width: 100%;
+    height: 1000px;
+    display: block;
+    background-color: rgb(245, 245, 245);
+
+}
+.section8 .text4{
+    text-align: center;
+    padding: 150px 0;
+}
+.section8 .text4 h1{
+    font-size:40px;
+    line-height: 1.5;
+    padding-top: 15px;
+
+}
+.section8 .text4 p{
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.section8 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+
+}
+
+.card h1{
+    text-align: center;
+    font-size:40px;
+    height: 30px;
+}
+.card h3{
+    text-align: center;
+    font-size:25px ;
+    padding:30px 0 0 0;
+}
+
+.card p{
+    color: #706363;
+    padding: 20px;
+}
+ input{
+     padding: 10px 35px;
+     text-transform: uppercase;
+     font-weight: bold;
+     margin-left: 30px;
+     display: none;
+     background-color: #eff3f7;
+     border-radius: 50px;
+     margin-top: 30px;
+    
+}
+.card1:hover{
+    background-image: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+   
+    height: 500px;
+    transition: all 0.25s ease-out;
+    transform: scaleX(1);
+   
+   
+}
+.card1:hover input{
+
+    display: block;
+}
+
+.card1{
+   
+    padding:30px;
+    
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #62bdfc;
+}
+.child1 p,h1{
+    padding: 0 0 20px 0;
+    text-align: center;
+    left: 0;
+    color: black;
+}
+
+.foot{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.child1{
+    margin-left:100px;
+    width: 32%;
+}
+.followicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.followicon li {
+    list-style: none;
+}
+.followicon li a{
+    display: inline-block;
+    padding: 5px;
+    left: 0;
+    margin: 20px 0;
+}
 
 
 
